@@ -27,7 +27,7 @@ redirect_from:
     </div>
   </div>
   <div class="home-hero__media">
-    <img src="{{ '/images/boyd-monson-avatar.jpg?v=20260330a' | relative_url }}" alt="Boyd Monson" class="home-hero__portrait">
+    <img src="{{ '/images/boyd-monson-photo.jpg?v=20260330b' | relative_url }}" alt="Boyd Monson" class="home-hero__portrait">
   </div>
 </div>
 
