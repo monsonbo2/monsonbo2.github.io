@@ -141,6 +141,7 @@ a:hover {
 .home-hero--with-photo {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   justify-content: space-between;
 }
@@ -153,12 +154,14 @@ a:hover {
 
 .home-hero__content {
   flex: 1 1 36rem;
+  min-width: 18rem;
 }
 
 .home-hero__media {
   display: flex;
-  flex: 0 1 20rem;
+  flex: 0 0 clamp(220px, 28vw, 320px);
   justify-content: flex-end;
+  min-width: 220px;
 }
 
 .home-hero__portrait {
@@ -361,27 +364,31 @@ a:hover {
   text-transform: uppercase;
 }
 
+@media (max-width: 960px) {
+  .home-hero--with-photo {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .home-hero__media {
+    justify-content: center;
+    order: -1;
+    width: 100%;
+  }
+
+  .home-hero__portrait {
+    margin-top: 0.25rem;
+    max-width: 360px;
+  }
+}
+
 @media (max-width: 768px) {
   .home-hero {
     border-radius: 28px;
     padding: 2rem 1.4rem;
   }
 
-  .home-hero--with-photo {
-    align-items: stretch;
-    flex-direction: column;
-  }
-
   .home-hero__title {
     max-width: none;
-  }
-
-  .home-hero__media {
-    justify-content: center;
-  }
-
-  .home-hero__portrait {
-    margin-top: 0.25rem;
-    max-width: 360px;
   }
 }
