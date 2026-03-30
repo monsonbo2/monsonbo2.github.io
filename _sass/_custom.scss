@@ -1,0 +1,339 @@
+:root {
+  --site-ink: #1d271f;
+  --site-muted: #5d685f;
+  --site-accent: #17332d;
+  --site-accent-soft: #dce8de;
+  --site-highlight: #bb6b46;
+  --site-highlight-soft: #f5e3d6;
+  --site-surface: #f8f3ec;
+  --site-card: #fffdf8;
+  --site-border: rgba(23, 51, 45, 0.14);
+  --site-shadow: 0 20px 50px rgba(23, 51, 45, 0.08);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(187, 107, 70, 0.12), transparent 28rem),
+    linear-gradient(180deg, #fffdf9 0%, var(--site-surface) 100%);
+  color: var(--site-ink);
+  font-family: "Newsreader", Georgia, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.masthead__menu-item,
+.author__name,
+.btn,
+.archive__item-title,
+.page__title {
+  font-family: "Space Grotesk", "Avenir Next", sans-serif;
+}
+
+a {
+  color: var(--site-accent);
+}
+
+a:hover {
+  color: var(--site-highlight);
+}
+
+.masthead {
+  background: rgba(255, 253, 248, 0.88);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--site-border);
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.site-title {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.btn,
+.btn:hover,
+.btn:visited {
+  border-radius: 999px;
+}
+
+.btn--inverse {
+  background: var(--site-accent);
+  border-color: var(--site-accent);
+  color: #fff;
+}
+
+.btn--inverse:hover {
+  background: var(--site-highlight);
+  border-color: var(--site-highlight);
+}
+
+.author__avatar img,
+.author__avatar {
+  border-radius: 28px;
+}
+
+.author__content,
+.author__urls-wrapper {
+  background: rgba(255, 253, 248, 0.78);
+  border: 1px solid var(--site-border);
+  border-radius: 24px;
+  box-shadow: var(--site-shadow);
+  padding: 1.2rem;
+}
+
+.author__content {
+  margin-bottom: 1rem;
+}
+
+.author__bio,
+.page__lead,
+.archive__item-excerpt,
+.page__content p,
+.page__content li {
+  font-size: 1.05rem;
+}
+
+.page__footer,
+.page__meta,
+.archive__item-excerpt {
+  color: var(--site-muted);
+}
+
+.archive__item,
+.home-card,
+.project-spotlight,
+.growth-panel,
+.resume-downloads,
+.experience-block {
+  background: var(--site-card);
+  border: 1px solid var(--site-border);
+  border-radius: 28px;
+  box-shadow: var(--site-shadow);
+}
+
+.archive__item {
+  padding: 1.6rem;
+}
+
+.home-hero {
+  background:
+    linear-gradient(135deg, rgba(23, 51, 45, 0.96), rgba(49, 84, 71, 0.9)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent);
+  border-radius: 36px;
+  color: #f9f7f1;
+  padding: 3rem 2rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 32px 80px rgba(23, 51, 45, 0.25);
+}
+
+.home-hero::after {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0) 62%);
+  content: "";
+  height: 22rem;
+  position: absolute;
+  right: -7rem;
+  top: -8rem;
+  width: 22rem;
+}
+
+.home-hero__eyebrow,
+.section-label {
+  color: #cbdacf;
+  display: block;
+  font-family: "Space Grotesk", "Avenir Next", sans-serif;
+  font-size: 0.83rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.home-hero__title {
+  color: #fffdf8;
+  font-size: clamp(2.6rem, 7vw, 4.8rem);
+  line-height: 0.94;
+  margin: 0 0 1rem;
+  max-width: 11ch;
+}
+
+.home-hero__lede {
+  color: #eff5ef;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 42rem;
+}
+
+.home-actions,
+.quick-facts,
+.home-grid,
+.project-links,
+.resume-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+
+.quick-facts {
+  margin-top: 2rem;
+}
+
+.quick-facts span {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+  color: #fffdf8;
+  font-family: "Space Grotesk", "Avenir Next", sans-serif;
+  padding: 0.55rem 0.9rem;
+}
+
+.home-section {
+  margin-top: 3rem;
+}
+
+.home-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-section > p {
+  color: var(--site-muted);
+  max-width: 44rem;
+}
+
+.home-grid {
+  align-items: stretch;
+  margin-top: 1.4rem;
+}
+
+.home-grid > * {
+  flex: 1 1 16rem;
+}
+
+.home-card,
+.project-spotlight,
+.growth-panel,
+.resume-downloads,
+.experience-block {
+  padding: 1.5rem;
+}
+
+.home-card h3,
+.project-spotlight h3,
+.growth-panel h3,
+.experience-block h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.signal-list,
+.experience-list,
+.growth-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.signal-list li,
+.experience-list li,
+.growth-list li {
+  margin-bottom: 0.5rem;
+}
+
+.project-spotlight {
+  margin-top: 1.4rem;
+}
+
+.project-links {
+  margin-top: 1rem;
+}
+
+.project-links .btn,
+.resume-links .btn,
+.home-actions .btn {
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.btn--ghost {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fffdf8;
+}
+
+.btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fffdf8;
+}
+
+.timeline {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.4rem;
+}
+
+.timeline__item {
+  background: rgba(255, 253, 248, 0.7);
+  border-left: 4px solid var(--site-highlight);
+  border-radius: 0 24px 24px 0;
+  padding: 1.25rem 1.25rem 1.25rem 1.4rem;
+}
+
+.timeline__meta {
+  color: var(--site-muted);
+  display: block;
+  font-family: "Space Grotesk", "Avenir Next", sans-serif;
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.timeline__item h3 {
+  margin: 0 0 0.45rem;
+}
+
+.resume-downloads {
+  margin-bottom: 2rem;
+}
+
+.resume-links {
+  margin-top: 1rem;
+}
+
+.resume-note {
+  color: var(--site-muted);
+  margin-top: 1rem;
+}
+
+.project-meta {
+  color: var(--site-muted);
+  display: block;
+  font-family: "Space Grotesk", "Avenir Next", sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .home-hero {
+    border-radius: 28px;
+    padding: 2rem 1.4rem;
+  }
+
+  .home-hero__title {
+    max-width: none;
+  }
+}

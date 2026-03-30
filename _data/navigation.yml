@@ -1,13 +1,13 @@
 # main links links
 main:
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Writing"
-    url: /writing/
-        
-  - title: "CV"
-    url: /files/NathanielMonson_CV.pdf
-    
-  - title: "Thesis"
-    url: https://drum.lib.umd.edu/handle/1903/29249
+  - title: "Home"
+    url: /
+
+  - title: "Experience"
+    url: /experience/
+
+  - title: "Projects"
+    url: /portfolio/
+
+  - title: "Resume"
+    url: /resume/
