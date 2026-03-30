@@ -140,10 +140,9 @@ a:hover {
 
 .home-hero--with-photo {
   align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: space-between;
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: minmax(0, 1fr) clamp(160px, 22vw, 220px);
 }
 
 .home-hero__content,
@@ -153,26 +152,39 @@ a:hover {
 }
 
 .home-hero__content {
-  flex: 1 1 36rem;
-  min-width: 18rem;
+  min-width: 0;
 }
 
 .home-hero__media {
   display: flex;
-  flex: 0 0 clamp(220px, 28vw, 320px);
   justify-content: flex-end;
-  min-width: 220px;
 }
 
 .home-hero__portrait {
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 30px;
+  border-radius: 24px;
   box-shadow: 0 22px 50px rgba(0, 0, 0, 0.22);
   display: block;
-  max-width: 320px;
+  max-width: 220px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 24%;
+  aspect-ratio: 1 / 1;
   width: 100%;
+}
+
+.home-hero__media::before {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 28px;
+  content: "";
+  inset: 18px -14px -18px 14px;
+  position: absolute;
+  z-index: 0;
+}
+
+.home-hero__media img {
+  position: relative;
+  z-index: 1;
 }
 
 .home-hero::after {
@@ -364,21 +376,18 @@ a:hover {
   text-transform: uppercase;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 860px) {
   .home-hero--with-photo {
     align-items: stretch;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .home-hero__media {
-    justify-content: center;
-    order: -1;
-    width: 100%;
+    justify-content: flex-start;
   }
 
   .home-hero__portrait {
-    margin-top: 0.25rem;
-    max-width: 360px;
+    max-width: 170px;
   }
 }
 
