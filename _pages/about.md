@@ -8,21 +8,26 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div class="home-hero">
-  <span class="home-hero__eyebrow">Operations • Analysis • Documentation • Data Tools</span>
-  <h1 class="home-hero__title">Calm systems for complicated work.</h1>
-  <p class="home-hero__lede">I’m Boyd Monson, an operations and grants professional with a mathematics and statistics background. I like turning messy workflows into clear processes, building documentation people will actually use, and creating practical tools for data-heavy work.</p>
-  <div class="home-actions">
-    <a class="btn btn--inverse" href="/resume/">View resume</a>
-    <a class="btn btn--ghost" href="/portfolio/">See projects</a>
-    <a class="btn btn--ghost" href="https://github.com/monsonbo2">GitHub</a>
-    <a class="btn btn--ghost" href="mailto:boydm9@gmail.com">Email me</a>
+<div class="home-hero home-hero--with-photo">
+  <div class="home-hero__content">
+    <span class="home-hero__eyebrow">Operations • Analysis • Documentation • Data Tools</span>
+    <h1 class="home-hero__title">Calm systems for complicated work.</h1>
+    <p class="home-hero__lede">I’m Boyd Monson, an operations and grants professional with a mathematics and statistics background. I like turning messy workflows into clear processes, building documentation people will actually use, and creating practical tools for data-heavy work.</p>
+    <div class="home-actions">
+      <a class="btn btn--inverse" href="/resume/">View resume</a>
+      <a class="btn btn--ghost" href="/portfolio/">See projects</a>
+      <a class="btn btn--ghost" href="https://github.com/monsonbo2">GitHub</a>
+      <a class="btn btn--ghost" href="mailto:boydm9@gmail.com">Email me</a>
+    </div>
+    <div class="quick-facts">
+      <span>$100M+ annual funding environment</span>
+      <span>50-project portfolio support</span>
+      <span>11 program directors coordinated</span>
+      <span>Python, SQL, Excel</span>
+    </div>
   </div>
-  <div class="quick-facts">
-    <span>$100M+ annual funding environment</span>
-    <span>50-project portfolio support</span>
-    <span>11 program directors coordinated</span>
-    <span>Python, SQL, Excel</span>
+  <div class="home-hero__media">
+    <img src="{{ '/images/boyd-monson-photo.jpg' | relative_url }}" alt="Boyd Monson" class="home-hero__portrait">
   </div>
 </div>
 
