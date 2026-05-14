@@ -15,6 +15,7 @@ redirect_from:
     <p class="home-hero__lede">I'm Boyd Monson, a mathematics-trained analyst with 6+ years building reporting, forecasting, budgeting, and operational data workflows in federal public health environments. I'm strongest at turning ambiguous stakeholder needs into structured processes, cleaner data, and decision-ready reporting.</p>
     <div class="home-actions">
       <a class="btn btn--inverse" href="/resume/">View resume</a>
+      <a class="btn btn--ghost" href="{{ '/files/boyd-monson-resume-2026-05-14.pdf' | relative_url }}" download>Download PDF</a>
       <a class="btn btn--ghost" href="/portfolio/">See projects</a>
       <a class="btn btn--ghost" href="https://github.com/monsonbo2">GitHub</a>
       <a class="btn btn--ghost" href="mailto:boydm9@gmail.com">Email me</a>

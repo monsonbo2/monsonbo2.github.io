@@ -15,7 +15,8 @@ redirect_from:
   <h2>Business intelligence, reporting systems, and practical data workflows.</h2>
   <p>This page is the web version of my current resume. It highlights the themes that show up consistently across my work: reporting, forecasting, requirements gathering, process design, stakeholder communication, and technical tools that make high-detail work easier to trust.</p>
   <div class="resume-links">
-    <a class="btn btn--inverse" href="mailto:boydm9@gmail.com">Contact me</a>
+    <a class="btn btn--inverse" href="{{ '/files/boyd-monson-resume-2026-05-14.pdf' | relative_url }}" download>Download PDF resume</a>
+    <a class="btn" href="mailto:boydm9@gmail.com">Contact me</a>
     <a class="btn" href="https://github.com/monsonbo2">GitHub profile</a>
   </div>
 </div>
