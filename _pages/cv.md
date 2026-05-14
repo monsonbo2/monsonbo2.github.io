@@ -54,7 +54,8 @@ Business intelligence and data-focused analyst with 6+ years managing reporting,
 
 ### Federal Public Health Emergency Funding & Reporting Project
 
-**APHL / CDC - $170M+, fully funded**
+**APHL / CDC - $170M+, fully funded**<br>
+[Case study](/portfolio/covid-19-emergency-response/)
 
 - Orchestrated development of a fully funded $170M+ emergency COVID-19 cooperative agreement proposal to CDC under a two-week deadline.
 - Consolidated budgets, workplans, and federal application materials across approximately 18 projects and 5 program directors into a unified submission package.

@@ -91,6 +91,9 @@ redirect_from:
         <li>Consolidated budgets, workplans, and federal application materials across approximately 18 projects and 5 program directors.</li>
         <li>Aligned program leadership, CDC officials, and administrative stakeholders during active pandemic-response operations.</li>
       </ul>
+      <div class="project-links">
+        <a class="btn btn--inverse" href="/portfolio/covid-19-emergency-response/">Read the case study</a>
+      </div>
     </div>
   </div>
 </section>
