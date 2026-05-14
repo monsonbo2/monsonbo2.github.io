@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Boyd Monson"
 title_separator          : "-"
 name                     : &name ""
-description              : &description "Operations, analysis, and practical systems work."
+description              : &description "Operations analysis, grant systems, and practical data workflows."
 url                      : https://monsonbo2.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "monsonbo2/monsonbo2.github.io"
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Boyd C. Monson"
   avatar           : "boyd-monson-avatar.jpg?v=20260330a"
-  bio              : "Operations and grants professional with a mathematics and statistics background, building practical systems and data workflows."
+  bio              : "Mathematics-trained operations analyst building practical systems, grant workflows, and data tools."
   location         : "Provo, Utah"
   employer         :
   pubmed           : 

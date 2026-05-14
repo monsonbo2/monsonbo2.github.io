@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Boyd Monson"
-excerpt: "Operations, analysis, and practical systems work."
+excerpt: "Operations analysis, grant systems, and practical data workflows."
 layout: splash
 author_profile: false
 redirect_from: 
@@ -10,9 +10,9 @@ redirect_from:
 ---
 <div class="home-hero home-hero--with-photo">
   <div class="home-hero__content">
-    <span class="home-hero__eyebrow">Operations • Analysis • Documentation • Data Tools</span>
-    <h1 class="home-hero__title">Calm systems for complicated work.</h1>
-    <p class="home-hero__lede">I’m Boyd Monson, an operations and grants professional with a mathematics and statistics background. I like turning messy workflows into clear processes, building documentation people will actually use, and creating practical tools for data-heavy work.</p>
+    <span class="home-hero__eyebrow">Operations Analysis • Grant Systems • Data Workflows</span>
+    <h1 class="home-hero__title">Structured systems for complicated work.</h1>
+    <p class="home-hero__lede">I'm Boyd Monson, a mathematics-trained operations analyst with 6+ years managing complex federal grant portfolios, budgeting workflows, reporting processes, and cross-functional systems. I like turning ambiguous requirements into clear processes, reliable data workflows, and decision-ready reporting.</p>
     <div class="home-actions">
       <a class="btn btn--inverse" href="/resume/">View resume</a>
       <a class="btn btn--ghost" href="/portfolio/">See projects</a>
@@ -20,10 +20,10 @@ redirect_from:
       <a class="btn btn--ghost" href="mailto:boydm9@gmail.com">Email me</a>
     </div>
     <div class="quick-facts">
-      <span>$100M+ annual funding environment</span>
-      <span>50-project portfolio support</span>
-      <span>11 program directors coordinated</span>
-      <span>Python, SQL, Excel</span>
+      <span>$100M+ average annual grant portfolios</span>
+      <span>$170M+ emergency proposal, fully funded</span>
+      <span>Python, SQL/SQLite, pandas, Excel</span>
+      <span>FastAPI, React, TypeScript</span>
     </div>
   </div>
   <div class="home-hero__media">
@@ -34,30 +34,30 @@ redirect_from:
 <section class="home-section">
   <span class="section-label">What I Bring</span>
   <h2>Operational clarity, analytical thinking, and systems-minded execution.</h2>
-  <p>My work sits at the intersection of process, people, and information. I’m strongest when the work is important, the details are messy, and the team needs a dependable structure that helps everyone move faster.</p>
+  <p>My work sits at the intersection of process, people, and information. I'm strongest when the work is important, the details are messy, and the team needs a dependable structure that helps everyone move faster without losing accuracy.</p>
   <div class="home-grid">
     <div class="home-card">
       <h3>Operations at Scale</h3>
       <ul class="signal-list">
-        <li>Supported a grant environment tied to more than $100 million in annual funding.</li>
-        <li>Coordinated renewal and budget work across 11 program directors and roughly 50 funded projects.</li>
-        <li>Built predictable operational rhythms for planning, reporting, and administrative follow-through.</li>
+        <li>Managed budget administration, monthly forecasting, and operational reporting for federal grant portfolios averaging $100M+ annually.</li>
+        <li>Coordinated renewal and budget development across 11 program directors and approximately 50 funded projects.</li>
+        <li>Helped APHL submit a fully funded $170M+ COVID-19 emergency cooperative agreement proposal in under two weeks.</li>
       </ul>
     </div>
     <div class="home-card">
       <h3>Process Improvement</h3>
       <ul class="signal-list">
-        <li>Created SOPs and reference materials that reduced repeated support requests.</li>
-        <li>Replaced Word-based workflows with structured Excel templates to cut review friction.</li>
-        <li>Delivered training for both large groups and one-on-one support situations.</li>
+        <li>Created SOPs, reference materials, and staff trainings that standardized recurring grant procedures.</li>
+        <li>Replaced Word-based budget templates with structured Excel workflows that reduced user error and review friction.</li>
+        <li>Translate policy-heavy requirements into practical guidance for non-technical users.</li>
       </ul>
     </div>
     <div class="home-card">
-      <h3>Technical Curiosity</h3>
+      <h3>Technical Systems</h3>
       <ul class="signal-list">
-        <li>Use Python and SQL to model messy real-world problems in a more durable way.</li>
-        <li>Interested in analyst, operations, and data-adjacent roles where systems thinking matters.</li>
-        <li>Enjoy work that combines structure, accuracy, and practical usefulness.</li>
+        <li>Use Python, SQL/SQLite, pandas, and Excel to turn messy information into cleaner workflows and reporting.</li>
+        <li>Build full-stack project work with FastAPI, React, TypeScript, Vite, API contracts, and CSV import/export.</li>
+        <li>Interested in operations analyst, business analyst, data operations, and technical operations roles.</li>
       </ul>
     </div>
   </div>
@@ -65,23 +65,23 @@ redirect_from:
 
 <section class="home-section">
   <span class="section-label">Selected Work</span>
-  <h2>A foundation that can keep growing.</h2>
-  <p>This site is meant to be a living record of projects, case studies, and technical exploration. It starts with the work I can already point to clearly and leaves room for the next layer of growth.</p>
+  <h2>Projects where operational problems become usable systems.</h2>
+  <p>This site is a living record of projects, case studies, and technical exploration. The strongest thread is practical structure: making complicated workflows easier to understand, audit, and improve.</p>
   <div class="home-grid">
     <div class="project-spotlight">
       <h3>MTG Inventory Tool</h3>
-      <p>A local-first Python and SQLite project for inventorying Magic: The Gathering cards with print-level identity, condition, location, and valuation. It’s designed for the kind of catalog where many items look similar but still need to be treated as meaningfully different.</p>
+      <p>A full-stack inventory and valuation system for complex, variant-heavy collectible goods. It turns product, pricing, and ownership data into searchable inventory records, auditable transactions, valuation reporting, and a React/TypeScript frontend backed by FastAPI and SQLite.</p>
       <div class="project-links">
         <a class="btn btn--inverse" href="/portfolio/mtg-inventory-tool/">Read the case study</a>
         <a class="btn" href="https://github.com/monsonbo2/MtG_Inventory_Tool">Repository</a>
       </div>
     </div>
     <div class="growth-panel">
-      <h3>Where This Site Goes Next</h3>
+      <h3>COVID-19 Emergency Proposal</h3>
       <ul class="growth-list">
-        <li>Additional project writeups with architecture notes and lessons learned.</li>
-        <li>Short essays on process improvement, documentation, and systems design.</li>
-        <li>Deeper examples of how operational work and technical work can reinforce each other.</li>
+        <li>Orchestrated APHL's submission of a fully funded $170M+ emergency cooperative agreement proposal to CDC in under two weeks.</li>
+        <li>Consolidated budgets, workplans, and federal application materials across approximately 18 projects and 5 program directors.</li>
+        <li>Aligned program leadership, CDC officials, and administrative stakeholders during active pandemic-response operations.</li>
       </ul>
     </div>
   </div>
@@ -92,19 +92,19 @@ redirect_from:
   <h2>From mathematics to fundraising to public health operations.</h2>
   <div class="timeline">
     <div class="timeline__item">
-      <span class="timeline__meta">2020 to 2026</span>
+      <span class="timeline__meta">2019 to 2026</span>
       <h3>Association of Public Health Laboratories</h3>
-      <p>Progressed from Associate Specialist to Senior Specialist in Grants Management while supporting budgeting, forecasting, renewals, SOP creation, and large cross-functional processes.</p>
+      <p>Progressed from Associate Specialist to Senior Specialist in Grants Management while supporting budgeting, forecasting, renewals, SOP creation, staff training, and large cross-functional grant processes.</p>
     </div>
     <div class="timeline__item">
       <span class="timeline__meta">2016 to 2018</span>
       <h3>Grinnell College Annual Giving</h3>
-      <p>Managed a student caller team, improved incentive structures, analyzed donor segments, and helped raise approximately $400K per year from 1,500+ donors.</p>
+      <p>Managed a student caller team, improved incentive structures, analyzed donor segments, maintained a 12,000+ record calling database, and helped raise approximately $400K annually from 1,500+ donors.</p>
     </div>
     <div class="timeline__item">
       <span class="timeline__meta">2013 to 2016</span>
       <h3>Mathematics and Statistics Foundation</h3>
-      <p>Completed a B.A. in Mathematics and Statistics, worked in Ramsey Theory research, and developed the communication habits that still shape how I explain technical ideas.</p>
+      <p>Completed a B.A. in Mathematics and Statistics, worked in Ramsey Theory research, graded proof-based combinatorics, and developed the communication habits that still shape how I explain technical ideas.</p>
     </div>
   </div>
 </section>
