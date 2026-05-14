@@ -8,11 +8,21 @@ author_profile: true
 link: "https://github.com/monsonbo2/MtG_Inventory_Tool"
 ---
 
-<span class="project-meta">Python • SQLite • FastAPI • React • TypeScript • data modeling</span>
+<span class="project-meta">Python • SQLite • FastAPI • React • TypeScript • data modeling • reporting workflows</span>
 
 This project started from a practical problem: keeping track of a collectible inventory where many items look similar, but still need to be treated as meaningfully different. For Magic: The Gathering cards, that means handling printings, finishes, language, condition, storage location, ownership history, and pricing data without collapsing important distinctions.
 
 The result is a full-stack inventory and valuation system for complex, variant-heavy goods. It translates messy product, pricing, and ownership data into searchable inventory records, auditable transactions, and usable valuation reports.
+
+## Relevant Skills Demonstrated
+
+- Relational data modeling and SQLite schema design.
+- External data ingestion from Scryfall and MTGJSON.
+- ETL-style workflows for catalog, identifier, pricing, and inventory data.
+- Python/FastAPI service design with documented API contracts.
+- Audit logging, import/export workflows, and decision-ready valuation reporting.
+- React/TypeScript frontend work against a contract-driven HTTP boundary.
+- Git-based project organization and technical documentation.
 
 ## What It Does
 
@@ -45,3 +55,7 @@ That made the project a good systems problem, not just a card database. The plat
 ## Where It Can Grow
 
 The same approach could extend beyond trading cards to any inventory domain with overlapping variants, bundle relationships, and condition-sensitive value.
+
+## Repository
+
+[View the project on GitHub](https://github.com/monsonbo2/MtG_Inventory_Tool){: .btn .btn--inverse}

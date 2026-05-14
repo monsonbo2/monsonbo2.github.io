@@ -2,7 +2,7 @@
 title: "Personal Site Rebuild"
 collection: portfolio
 permalink: /portfolio/personal-site-rebuild/
-excerpt: "Turning a copied academic template into a personal site with clearer positioning, better structure, and room to grow."
+excerpt: "A lightweight information architecture and content strategy project focused on turning a generic academic template into a clearer professional portfolio."
 date: 2026-03-30
 author_profile: true
 link: "https://github.com/monsonbo2/monsonbo2.github.io"
@@ -14,9 +14,9 @@ This site began as a copy of someone else’s academic-pages setup. The rebuild 
 
 ## What Changed
 
-- Rewrote the homepage around operations, analysis, and practical systems work.
+- Rewrote the homepage around reporting systems, operations analysis, and practical data workflows.
 - Added a clearer information architecture with dedicated pages for experience, projects, and resume content.
-- Removed copied academic material and replaced it with content grounded in my actual background.
+- Replaced academic-template residue with content grounded in my actual background.
 - Added custom styling and a simple personal visual identity so the site feels intentional rather than templated.
 
 ## Why It Matters

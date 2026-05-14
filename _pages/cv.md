@@ -12,8 +12,8 @@ redirect_from:
 
 <div class="resume-downloads">
   <span class="section-label">Resume Snapshot</span>
-  <h2>Operations analysis, grant systems, and practical data workflows.</h2>
-  <p>This page is the web version of my current resume. It highlights the themes that show up consistently across my work: process design, budgeting and forecasting, cross-functional coordination, training, and technical tools that make high-detail work easier to trust.</p>
+  <h2>Business intelligence, reporting systems, and practical data workflows.</h2>
+  <p>This page is the web version of my current resume. It highlights the themes that show up consistently across my work: reporting, forecasting, requirements gathering, process design, stakeholder communication, and technical tools that make high-detail work easier to trust.</p>
   <div class="resume-links">
     <a class="btn btn--inverse" href="mailto:boydm9@gmail.com">Contact me</a>
     <a class="btn" href="https://github.com/monsonbo2">GitHub profile</a>
@@ -22,36 +22,42 @@ redirect_from:
 
 ## Summary
 
-Mathematics-trained operations analyst with 6+ years managing complex federal grant portfolios, budgeting workflows, reporting processes, and cross-functional systems. Experienced in Python, SQL, Excel, and full-stack project work, with a track record of turning ambiguous operational requirements into structured processes, reliable data workflows, and decision-ready reporting. Seeking operations analyst, business analyst, data operations, or technical operations roles focused on systems, data, and problem-solving.
+Business intelligence and data-focused analyst with 6+ years managing reporting, forecasting, budgeting, and operational data workflows for federal public health programs exceeding $100M annually. Mathematics and Statistics background with experience in SQL, Python, Excel, requirements gathering, data cleaning, and translating stakeholder needs into reliable reporting and decision-support tools.
 
 ## Technical Skills
 
-- **Data & Analysis:** Excel, SQL/SQLite, Python, pandas, budgeting, forecasting, reporting, data cleaning
-- **Systems & Development:** FastAPI, React, TypeScript/JavaScript, Vite, Uvicorn, API design, CSV import/export
-- **Business Systems:** Sage Intacct, Blackbaud, RuffaloCODY
-- **Operations Strengths:** process improvement, documentation, training non-technical users, cross-functional coordination
+- **Programming & Data:** SQL/SQLite, Python, pandas, FastAPI, JavaScript/TypeScript, React, Git
+- **BI & Analysis:** Excel, forecasting, budget analysis, ad hoc reporting, data cleaning
+- **Data Workflows:** requirements gathering, relational data modeling, ETL-style workflows, API design, CSV import/export
+- **Systems & Communication:** Sage Intacct, Blackbaud, RuffaloCODY, documentation, training non-technical users
 
 ## Selected Projects
 
-### Inventory System for Complex Goods
+### Inventory Data Modeling & Reporting System
 
-**Magic: The Gathering inventory and valuation system**
-[Public repository](https://github.com/monsonbo2/MtG_Inventory_Tool)
+**Magic: The Gathering inventory and valuation system**<br>
+[Case study](/portfolio/mtg-inventory-tool/) | [Public repository](https://github.com/monsonbo2/MtG_Inventory_Tool)
 
-- Built a full-stack inventory and valuation system for complex, variant-heavy collectible goods, translating messy product, pricing, and ownership data into searchable inventory records, auditable transactions, and usable valuation reports.
-- Architected a dual-mode platform that runs as a local-first SQLite application or a hosted single-host shared service, supporting both offline personal workflows and authenticated multi-user access.
-- Created backend data workflows for Scryfall/MTGJSON ingestion, SQLite schema and migrations, inventory-domain services, transactional mutation flows, pricing, valuation, reporting, CSV and deck import/export, and per-edit audit logging.
-- Developed a FastAPI service layer with documented API contracts, role-scoped inventory access, grouped bulk mutations, transfer and duplication workflows, import preview and commit flows, and snapshot-based recovery support.
-- Built the React/TypeScript/Vite frontend for inventory selection, card search and add flows, inline item editing, and recent audit activity against a contract-driven HTTP boundary.
+- Built a full-stack inventory and valuation system using Python/FastAPI, SQLite, and TypeScript to ingest external card and pricing data, normalize records, track holdings, and produce auditable valuation reports.
+- Designed relational data models and ETL-style workflows for pricing, valuation, import/export, bulk updates, data validation, and per-edit audit logging.
+- Developed documented API contracts and reporting workflows to support searchable inventory, inline editing, transaction-style updates, and stakeholder-facing views.
 
-### COVID-19 Emergency Cooperative Agreement Proposal
+### Budget Forecasting Workflow Redesign
+
+**Structured Excel reporting workflow for public health grant management**<br>
+[Case study](/portfolio/budget-forecasting-workflow-redesign/)
+
+- Replaced Word-based budget templates with a structured Excel workflow that improved data consistency, reduced user error, and shortened review cycles.
+- Standardized recurring budget development and reporting processes for program and finance stakeholders.
+- Created documentation and training materials to help non-technical users work more reliably with complex federal requirements.
+
+### Federal Public Health Emergency Funding & Reporting Project
 
 **APHL / CDC - $170M+, fully funded**
 
-- Orchestrated APHL's development and submission of a fully funded $170M+ emergency COVID-19 cooperative agreement proposal to CDC in under two weeks, translating rapidly changing response priorities into an executable budget and workplan.
-- Consolidated budgets, workplans, and federal application materials across approximately 18 projects and 5 program directors, producing a complete submission package under continual late-stage scope and funding changes.
-- Served as primary liaison between APHL program leadership and CDC officials, aligning technical, programmatic, and administrative stakeholders while program staff were simultaneously engaged in active pandemic-response operations.
-- Delivered a proposal that secured funding for expanded public health laboratory testing capacity, state access to testing materials and equipment, workforce and data fellowship growth, and informatics infrastructure including the AIMS platform.
+- Orchestrated development of a fully funded $170M+ emergency COVID-19 cooperative agreement proposal to CDC under a two-week deadline.
+- Consolidated budgets, workplans, and federal application materials across approximately 18 projects and 5 program directors into a unified submission package.
+- Supported expansion of public health laboratory testing, workforce, data fellowship, and informatics infrastructure through an executable budget and workplan.
 
 ## Experience
 
@@ -69,11 +75,11 @@ January 2020 to December 2021
 **Senior Tech, Infectious Disease (Temp to Hire)**<br>
 August 2019 to December 2019
 
-- Managed budget administration, monthly forecasting, and operational reporting for APHL's NU60OE000103, NU60OE000104, and NU47CD000001 grant portfolios, supporting an average annual funding stream of $100M+ across approximately 50 funded projects.
-- Built a structured Excel budgeting workflow to replace Word-based templates, reducing user error and shortening budget review cycles.
-- Coordinated annual renewal application and budget development across 11 program directors, translating project-level plans into consolidated budget and application materials.
-- Created SOPs, reference materials, and staff trainings that standardized grant procedures and reduced recurring support requests.
-- Delivered group and one-on-one training on grant policies and procedures for program staff, helping non-technical users navigate complex federal requirements and internal systems.
+- Managed budget administration, recurring reporting, and monthly forecasting for federal grant portfolios supporting $100M+ annually across approximately 50 funded projects.
+- Produced recurring and ad hoc budget reports, forecasts, and analyses to identify trends, surface planning risks, and support allocation decisions.
+- Gathered requirements from program and finance stakeholders and translated project-level plans into consolidated budgets, reports, and application materials.
+- Built a structured Excel budgeting workflow to replace Word-based templates, improving data consistency, reducing user error, and shortening review cycles.
+- Created SOPs, reference materials, and trainings that standardized reporting procedures and helped non-technical staff navigate complex federal requirements.
 
 ### Grinnell College, Office of Development and Alumni Relations
 

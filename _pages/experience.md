@@ -7,8 +7,9 @@ author_profile: true
 
 <div class="experience-block">
   <span class="section-label">Professional Experience</span>
-  <h2>Work shaped by process, trust, and useful detail.</h2>
+  <h2>Work shaped by reporting, process, trust, and useful detail.</h2>
   <p>Most of my experience has involved making complicated work more workable for other people. That has meant translating policy into procedures, building tools that reduce confusion, training teams across different levels of technical comfort, and keeping high-detail operational work moving reliably enough to support major funding decisions.</p>
+  <p>The common thread is reporting infrastructure: gathering requirements, structuring messy operational information, building repeatable workflows, and communicating enough context for leaders and teams to act.</p>
 </div>
 
 <div class="timeline">
@@ -16,11 +17,12 @@ author_profile: true
     <span class="timeline__meta">Association of Public Health Laboratories • Aug 2019 to Feb 2026</span>
     <h3>Senior Specialist, Specialist, and Associate Specialist in Grants Management</h3>
     <ul class="experience-list">
-      <li>Managed budget administration, monthly forecasting, and operational reporting for APHL's NU60OE000103, NU60OE000104, and NU47CD000001 grant portfolios, supporting an average annual funding stream of $100M+ across approximately 50 funded projects.</li>
-      <li>Coordinated annual renewal application and budget development across 11 program directors, translating project-level plans into consolidated budget and application materials.</li>
-      <li>Built a structured Excel budgeting workflow to replace Word-based templates, reducing user error and shortening budget review cycles.</li>
-      <li>Created SOPs, reference materials, and staff trainings that standardized grant procedures and reduced recurring support requests.</li>
-      <li>Delivered group and one-on-one training on grant policies and procedures for program staff, helping non-technical users navigate complex federal requirements and internal systems.</li>
+      <li>Managed budget administration, monthly forecasting, recurring reporting, and operational analysis for APHL's NU60OE000103, NU60OE000104, and NU47CD000001 grant portfolios, supporting an average annual funding stream of $100M+ across approximately 50 funded projects.</li>
+      <li>Produced recurring and ad hoc budget reports, forecasts, and analyses to identify trends, surface planning risks, and support allocation decisions.</li>
+      <li>Gathered requirements from program and finance stakeholders and translated project-level plans into consolidated budgets, reports, renewal materials, and decision-support outputs.</li>
+      <li>Coordinated annual renewal application and budget development across 11 program directors, turning decentralized project information into unified application materials.</li>
+      <li>Built a structured Excel budgeting workflow to replace Word-based templates, improving data consistency, reducing user error, and shortening review cycles.</li>
+      <li>Created SOPs, reference materials, and staff trainings that standardized grant procedures and helped non-technical users navigate complex federal requirements and internal systems.</li>
     </ul>
   </div>
 
@@ -69,8 +71,8 @@ author_profile: true
 ## Additional Strengths
 
 - Comfortable translating specialized or policy-heavy material into practical guidance.
-- Strong fit for operations analyst, business analyst, data operations, and technical operations work.
-- Experienced with Excel, SQL/SQLite, Python, pandas, FastAPI, React, TypeScript/JavaScript, Vite, API design, and CSV import/export.
+- Strong fit for business intelligence, operations analyst, business analyst, data operations, and technical operations work.
+- Experienced with Excel, SQL/SQLite, Python, pandas, FastAPI, React, TypeScript/JavaScript, API design, and CSV import/export.
 - Enjoy improving recurring workflows instead of just handling one-off fixes.
 
 ## Education

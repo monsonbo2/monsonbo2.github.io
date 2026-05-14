@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Boyd Monson"
 title_separator          : "-"
 name                     : &name ""
-description              : &description "Operations analysis, grant systems, and practical data workflows."
+description              : &description "Business intelligence, reporting systems, and practical data workflows."
 url                      : https://monsonbo2.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "monsonbo2/monsonbo2.github.io"
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Boyd C. Monson"
   avatar           : "boyd-monson-avatar.jpg?v=20260330a"
-  bio              : "Mathematics-trained operations analyst building practical systems, grant workflows, and data tools."
+  bio              : "Mathematics-trained analyst building reporting systems, public health workflows, and practical data tools."
   location         : "Provo, Utah"
   employer         :
   pubmed           : 
@@ -200,8 +200,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
@@ -217,8 +217,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -226,8 +226,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""
@@ -235,8 +235,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
+      share: false
+      comment: false
   # _talks
   - scope:
       path: ""
@@ -244,7 +244,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 # Sass/SCSS
 sass:
