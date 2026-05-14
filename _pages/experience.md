@@ -71,7 +71,7 @@ author_profile: true
 ## Additional Strengths
 
 - Comfortable translating specialized or policy-heavy material into practical guidance.
-- Strong fit for business intelligence, operations analyst, business analyst, data operations, and technical operations work.
+- Bring reporting judgment, stakeholder translation, workflow design, and practical technical implementation to BI, business analyst, and data operations work.
 - Experienced with Excel, SQL/SQLite, Python, pandas, FastAPI, React, TypeScript/JavaScript, API design, and CSV import/export.
 - Enjoy improving recurring workflows instead of just handling one-off fixes.
 
