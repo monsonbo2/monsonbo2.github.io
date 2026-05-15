@@ -99,6 +99,12 @@ redirect_from:
 </section>
 
 <section class="home-section">
+  <h2>A Little More About Me</h2>
+  <p>A lot of my interests come back to the same basic impulse: I like noticing how things are put together. That shows up in Magic: The Gathering, where the game and the collecting side both reward careful attention to categories, exceptions, and weird edge cases. It shows up in choir, where you have to know your own part but also listen closely enough to fit into something larger than yourself. And it shows up in how I watch film and television, whether I'm seriously unpacking a movie or just enjoying the machinery of a great joke on 30 Rock.</p>
+  <p>I like structure, but I also like play, taste, and humor. I'm usually happiest when something gives me both: enough complexity to think about, and enough life that it doesn't feel sterile. That is probably why I'm drawn to work where the goal is not just to make information technically correct, but to make it usable, understandable, and less frustrating for the people dealing with it.</p>
+</section>
+
+<section class="home-section">
   <span class="section-label">Path So Far</span>
   <h2>From mathematics to fundraising to public health operations.</h2>
   <div class="timeline">
