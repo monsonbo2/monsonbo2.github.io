@@ -4,6 +4,7 @@ collection: portfolio
 permalink: /portfolio/budget-forecasting-workflow-redesign/
 excerpt: "A non-confidential case study on replacing document-based budget templates with a structured Excel workflow for public health grant reporting and review."
 date: 2026-05-14
+portfolio_order: 2
 author_profile: true
 ---
 
@@ -24,13 +25,13 @@ The redesign focused on:
 - clearer input structure for program users;
 - more consistent categories and assumptions;
 - easier review by grants and finance staff;
-- less rework caused by formatting or interpretation issues;
+- fewer repeated clarification cycles during budget review;
 - documentation and training so non-technical users could follow the process reliably.
 
 ## What Changed
 
 - Budget inputs moved into a more structured format.
-- Reviewers could compare and consolidate information more efficiently.
+- Reviewers could compare and consolidate project-level assumptions more efficiently.
 - Staff had clearer guidance on what information belonged where.
 - The workflow became easier to teach, repeat, and improve over time.
 

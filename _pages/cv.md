@@ -90,7 +90,7 @@ August 2016 to August 2018
 
 - Raised approximately $400K annually from 1,500+ donors through targeted outreach and team execution.
 - Supervised 35 callers, including hiring, training, feedback, scheduling, and team operations.
-- Managed and cleaned a 12,000+ record calling database and produced recurring reports using RuffaloCODY CampusCall Software.
+- Managed and cleaned a 12,000+ record calling database and produced recurring reports using RuffaloCODY Campus Call Software.
 - Used segment-level analysis to prioritize outreach and improve fundraising returns.
 - Restructured incentive programs, contributing to a 50% increase in recurring gifts from FY17 to FY18.
 

@@ -1,4 +1,4 @@
-# main links links
+# main links
 main:
   - title: "Home"
     url: /
@@ -9,5 +9,5 @@ main:
   - title: "Projects"
     url: /portfolio/
 
-  - title: "Resume"
+  - title: "Résumé"
     url: /resume/

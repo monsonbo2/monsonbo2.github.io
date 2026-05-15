@@ -4,8 +4,9 @@ collection: portfolio
 permalink: /portfolio/mtg-inventory-tool/
 excerpt: "A full-stack inventory and valuation system for complex, variant-heavy collectible goods with searchable records, auditable transactions, and decision-ready reporting."
 date: 2026-03-30
+portfolio_order: 1
 author_profile: true
-link: "https://github.com/monsonbo2/MtG_Inventory_Tool"
+github_url: "https://github.com/monsonbo2/MtG_Inventory_Tool"
 ---
 
 <span class="project-meta">Python • SQLite • FastAPI • React • TypeScript • data modeling • reporting workflows</span>

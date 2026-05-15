@@ -1,0 +1,20 @@
+{% include base_path %}
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+    </h2>
+
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>
+    {% endif %}
+
+    <p class="archive__item-links">
+      <a href="{{ base_path }}{{ post.url }}">Read case study</a>
+      {% if post.github_url %}
+        · <a href="{{ post.github_url }}">GitHub</a>
+      {% endif %}
+    </p>
+  </article>
+</div>

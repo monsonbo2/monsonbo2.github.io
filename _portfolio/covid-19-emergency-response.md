@@ -4,6 +4,7 @@ collection: portfolio
 permalink: /portfolio/covid-19-emergency-response/
 excerpt: "A public health operations case study on coordinating a fully funded $170M+ emergency CDC cooperative agreement proposal under a two-week deadline."
 date: 2026-05-14
+portfolio_order: 3
 author_profile: true
 ---
 
